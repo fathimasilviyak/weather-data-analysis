@@ -25,5 +25,9 @@ temp_list = data["temp"].to_list()
 # print(temp_list)
 # print(len(temp_list))
 
-print(data["temp"].mean())
-print(data["temp"].max())
+# print(data["temp"].mean())
+# print(data["temp"].max())
+
+# Get data in columns
+print(data["condition"])
+print(data.condition)

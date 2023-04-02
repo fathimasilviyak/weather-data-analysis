@@ -29,5 +29,9 @@ temp_list = data["temp"].to_list()
 # print(data["temp"].max())
 
 # Get data in columns
-print(data["condition"])
-print(data.condition)
+# print(data["condition"])
+# print(data.condition)
+
+# Get data in row
+print(data[data['day'] == 'Monday'])
+print(data[data.day == "Monday"])

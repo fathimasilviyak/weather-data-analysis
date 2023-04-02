@@ -33,5 +33,8 @@ temp_list = data["temp"].to_list()
 # print(data.condition)
 
 # Get data in row
-print(data[data['day'] == 'Monday'])
-print(data[data.day == "Monday"])
+# print(data[data['day'] == 'Monday'])
+# print(data[data.day == "Monday"])
+# Get the row that has max temperature
+print(data[data.temp == data.temp.max()])
+
